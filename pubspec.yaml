@@ -1,0 +1,25 @@
+name: qr_scanner_museum
+version: 1.0.0+1
+publish_to: none
+description: This app allows you to scan a QR code to view information about an exhibit.
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.5.1
+  flutter_svg: ^1.0.0
+  flutter_barcode_scanner: ^2.0.0
+  http: ^0.13.4
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+  - assets/images/
+
